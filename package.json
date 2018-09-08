@@ -1,0 +1,30 @@
+{
+  "name": "optional-options",
+  "version": "0.0.0",
+  "description": "A small JS helper function for dealing with callbacks and an optional options argument.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fritzmonkey/optional-options.git"
+  },
+  "keywords": [
+    "options",
+    "callback",
+    "utility",
+    "helper"
+  ],
+  "author": "fritzmonkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fritzmonkey/optional-options/issues"
+  },
+  "homepage": "https://github.com/fritzmonkey/optional-options#readme",
+  "devDependencies": {
+    "assume": "^2.1.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
+}
